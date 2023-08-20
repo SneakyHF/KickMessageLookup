@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #24272C; /* Background color */
+    color: #FFFFFF; /* Text color */
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1E1F23; /* Darker box container background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FFFFFF; /* Heading text color */
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: #FFFFFF; /* Label text color */
+}
+
+input {
+    width: 100%;
+    margin: 0 auto; /* Center-align the input */
+    margin-bottom: 15px;
+    padding: 10px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #24272C;
+}
+
+#searchInput {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3AA51A; /* Darker green button background color */
+    color: #FFFFFF; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1E7B0A; /* Darker green button hover background color */
+}
+
+.message {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #1E1F23; /* Darker message background color */
+}
+
+.message p {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF; /* Message text color */
+}
+
+.message small {
+    display: block;
+    color: #888;
+    font-style: italic;
+}
+
+.message strong {
+    font-weight: bold;
+}
+
+#botFilterContainer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#botFilterCheckbox {
+    margin-right: 5px;
+}
+
+#downloadButton:disabled {
+    background-color: #888; /* Grey background color */
+    cursor: not-allowed; /* Change cursor to indicate it's disabled */
+}
+
+#downloadButton {
+    background-color: #0375FB; /* Grey background color */
+}
+
+
+progress {
+    display: block;
+    width: 100%; /* Set the width to 100% to stretch across the container */
+    height: 15px; /* Increase the height for better visibility */
+    margin-top: 20px;
+}
